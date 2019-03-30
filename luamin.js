@@ -109,7 +109,7 @@
 			case 4:
 				return 'else' == id || 'goto' == id || 'then' == id || 'true' == id;
 			case 5:
-				return 'break' == id || 'false' == id || 'local' == id ||
+				return 'break' == id || 'continue' == id || 'false' == id || 'local' == id ||
 					'until' == id || 'while' == id;
 			case 6:
 				return 'elseif' == id || 'repeat' == id || 'return' == id;
@@ -530,6 +530,10 @@
 		} else if (statementType == 'BreakStatement') {
 
 			result = 'break';
+
+		} else if (statementType == 'ContinueStatement') {
+
+			result = 'continue';
 
 		} else if (statementType == 'RepeatStatement') {
 
