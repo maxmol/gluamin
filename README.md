@@ -1,3 +1,8 @@
+gluamin can be used to minify GMod Lua scripts
+
+also install [gluaparse](https://github.com/gmodstore/gluaparse)
+
+---
 # luamin, a Lua minifier written in JavaScript
 
 [![Build status](https://travis-ci.org/mathiasbynens/luamin.svg?branch=master)](https://travis-ci.org/mathiasbynens/luamin) [![Dependency status](https://gemnasium.com/mathiasbynens/luamin.svg)](https://gemnasium.com/mathiasbynens/luamin)
