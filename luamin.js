@@ -17,7 +17,7 @@
 
 	/*--------------------------------------------------------------------------*/
 
-	var luaparse = root.luaparse || require('luaparse');
+	var luaparse = root.luaparse || require('gluaparse');
 	luaparse.defaultOptions.comments = false;
 	luaparse.defaultOptions.scope = true;
 	var parse = luaparse.parse;
